@@ -10,10 +10,7 @@ import Team from './scenes/team';
 import Contacts from './scenes/contacts';
 import Invoices from './scenes/invoices';
 import Form from './scenes/form';
-<<<<<<< HEAD
 import Calendar from './scenes/calendar';
-=======
->>>>>>> d44bae6c151402d8bfabb353b0230b7abab109de
 // import Bar from './scenes/bar';
 // import Line from './scenes/line';
 // import Pie from './scenes/pie';
@@ -37,10 +34,7 @@ function App() {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/invoices" element={<Invoices />} />
             <Route path="/form" element={<Form />} />
-<<<<<<< HEAD
             <Route path="/calendar" element={<Calendar />} />
-=======
->>>>>>> d44bae6c151402d8bfabb353b0230b7abab109de
             {/* <Route path="/bar" element={<Bar />} /> */}
             {/* <Route path="/line" element={<Line />} /> */}
             {/* <Route path="/pie" element={<Pie />} /> */}

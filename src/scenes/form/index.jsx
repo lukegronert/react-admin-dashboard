@@ -138,14 +138,11 @@ const Form = () => {
                   helperText={touched.address2 && errors.address2}
                   sx={{ gridColumn: "span 4" }}
                 />
-<<<<<<< HEAD
             </Box>
             <Box display="flex" justifyContent="end" mt="20px">
               <Button type="submit" color="secondary" variant="contained">
                 Create New User
               </Button>
-=======
->>>>>>> d44bae6c151402d8bfabb353b0230b7abab109de
             </Box>
           </form>
         )}
