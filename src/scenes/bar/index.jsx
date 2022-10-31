@@ -4,12 +4,12 @@ import BarChart from '../../components/BarChart';
 
 const Bar = () => {
   return (
-    <BarChart m="20px">
+    <Box m="20px">
       <Header title="Bar Chart" subtitle="Simple Bar Chart" />
       <Box height="75vh">
         <BarChart />
       </Box>
-    </BarChart>
+    </Box>
   )
 }
 

@@ -4,12 +4,12 @@ import LineChart from '../../components/LineChart';
 
 const Line = () => {
   return (
-    <LineChart m="20px">
+    <Box m="20px">
       <Header title="Line Chart" subtitle="Simple Line Chart" />
       <Box height="75vh">
         <LineChart />
       </Box>
-    </LineChart>
+    </Box>
   )
 }
 
